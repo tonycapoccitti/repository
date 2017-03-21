@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.metropolicontools" name="script.metropolicontools" provider-name="telexxingou" version="1.2.3">
+<addons><addon id="script.iconmixtools" name="script.iconmixtools" provider-name="telexxingou" version="1.0.0">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0" />
 		<import addon="xbmc.addon" version="16.0.0" />
@@ -13,21 +13,21 @@
    <extension library="plugin.py" point="xbmc.python.pluginsource" />
 	
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">script.metropolicontools</summary>
-        <summary lang="en">tools for MetropolIcon skin</summary>
-        <description>provides some tools functions for my Metropolicon( Jarvis/Krypton) skin</description>
+		<summary lang="en">script.iconmixtools</summary>
+        <summary lang="en">tools for IconMix skin</summary>
+        <description>provides some tools functions for my IconMix( Jarvis/Krypton) skin</description>
 		<language />
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum />
 		<website />
-		<source>https://github.com/metropolicon/script.metropolicontools</source>
+		<source>-</source>
 		
 	</extension>
-</addon><addon id="skin.metropolicon-jarvis" name="Metropolicon (Jarvis)" provider-name="telexxingou" version="4.5.6">
+</addon><addon id="skin.iconmix-jarvis" name="iconmix (Jarvis)" provider-name="telexxingou" version="1.0.0">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0" />
-		<import addon="script.metropolicontools" version="0.0.5" />
+		<import addon="script.iconmixtools" version="1.0.0" />
 		<import addon="script.skinshortcuts" version="1.0.6" />
 		<import addon="resource.images.studios.white" version="0.0.5" />
 		<import addon="resource.images.languageflags.colour" version="0.0.4" />
@@ -48,7 +48,7 @@
 		<license>Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) United States License</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=290236</forum>
 		<website>---</website>
-                <source>https://github.com/metropolicon/skin.metropolicon.jarvis</source> 
+    <source /> 
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -63,13 +63,13 @@
 			<screenshot>resources/screenshot09.jpg</screenshot>
 		</assets>
 	</extension>
-</addon><addon id="skin.metropolicon-krypton" name="Metropolicon (Krypton)" provider-name="telexxingou" version="4.5.6">
+</addon><addon id="skin.iconmix-krypton" name="iconmix (Krypton)" provider-name="telexxingou" version="1.0.0">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0" />
 		<import addon="service.library.data.provider" version="0.1.5" />
 		<import addon="script.skinshortcuts" version="1.0.6" />
 		<import addon="script.skin.helper.service" version="0.0.1" />
-		<import addon="script.metropolicontools" version="0.0.5" />
+		<import addon="script.iconmixtools" version="1.0.0" />
 		<import addon="resource.images.studios.white" version="0.0.5" />
 		<import addon="resource.images.languageflags.colour" version="0.0.4" />
 		<import addon="resource.images.weatherfanart.prairie" version="0.0.5" />
@@ -88,7 +88,7 @@
 		<license>Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) United States License</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=290236</forum>
 		<website>---</website>
-		<source>https://github.com/metropolicon/skin.metropolicon.krypton</source>		
+		<source>-</source>		
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
