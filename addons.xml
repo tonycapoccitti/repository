@@ -24,7 +24,7 @@
 		<source>-</source>
 		
 	</extension>
-</addon><addon id="skin.iconmix-jarvis" name="iconmix (Jarvis)" provider-name="telexxingou" version="1.0.4">
+</addon><addon id="skin.iconmix-jarvis" name="iconmix (Jarvis)" provider-name="telexxingou" version="1.0.5">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0" />
 		<import addon="script.iconmixtools" version="1.0.0" />
